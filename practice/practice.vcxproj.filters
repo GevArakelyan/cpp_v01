@@ -23,5 +23,14 @@
     <ClCompile Include="Source.cpp">
       <Filter>lock_free</Filter>
     </ClCompile>
+    <ClCompile Include="spinlock.cpp">
+      <Filter>boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Simple_spin_lock.cpp">
+      <Filter>boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Lamport.cpp">
+      <Filter>lock_free</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
