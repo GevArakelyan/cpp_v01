@@ -15,13 +15,13 @@
     <Filter Include="boost">
       <UniqueIdentifier>{dd8bf079-ef1e-4153-bcd1-66f1a131717a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Interprocess">
+      <UniqueIdentifier>{65b6361d-f05c-4407-b9ed-dd646c70669e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="barrier.cpp">
       <Filter>boost</Filter>
-    </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>lock_free</Filter>
     </ClCompile>
     <ClCompile Include="spinlock.cpp">
       <Filter>boost</Filter>
@@ -30,6 +30,18 @@
       <Filter>boost</Filter>
     </ClCompile>
     <ClCompile Include="Lamport.cpp">
+      <Filter>lock_free</Filter>
+    </ClCompile>
+    <ClCompile Include="Giacomoni.cpp">
+      <Filter>lock_free</Filter>
+    </ClCompile>
+    <ClCompile Include="spsc_queue.cpp">
+      <Filter>boost</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared_memory_.cpp">
+      <Filter>Interprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="try.cpp">
       <Filter>lock_free</Filter>
     </ClCompile>
   </ItemGroup>

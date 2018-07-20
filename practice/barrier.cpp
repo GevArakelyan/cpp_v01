@@ -1,4 +1,3 @@
-#include <boost/lockfree/spsc_queue.hpp>
 #include <mutex>
 #include <gsl/gsl>
 #include <boost/thread/barrier.hpp>

@@ -1,14 +1,6 @@
 #include <cstdint>
 #include <atomic>
 
-
-
-
-
-
-
-
-
 //https://www.youtube.com/watch?v=74QjNwYAJ7M
 //1983
 
@@ -24,7 +16,7 @@ public:
 		if (h_.load(std::memory_order_acquire) + M == t)
 			return false;
 		b_[t%M] = p;
-		t_.store(t + 1, std::memory_order_acquire);
+		t_.store(t + 1, std::memory_order_release);
 		return true;
 	}
 	T* try_deq()

@@ -117,10 +117,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="barrier.cpp" />
+    <ClCompile Include="Giacomoni.cpp" />
     <ClCompile Include="Lamport.cpp" />
+    <ClCompile Include="Shared_memory_.cpp" />
     <ClCompile Include="Simple_spin_lock.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="try.cpp" />
     <ClCompile Include="spinlock.cpp" />
+    <ClCompile Include="spsc_queue.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
