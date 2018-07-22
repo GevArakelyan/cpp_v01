@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="locking_benchmarks">
+      <UniqueIdentifier>{30f298c9-e71d-4660-b1ab-c94b1974e0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cachBench">
+      <UniqueIdentifier>{501e7620-3473-4471-96cc-2f7eb876b3f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="lock_vs_mutex_vs_spinlock.cpp">
+      <Filter>locking_benchmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="cach_bench.cpp">
+      <Filter>cachBench</Filter>
+    </ClCompile>
+    <ClCompile Include="try.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iterable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
