@@ -125,12 +125,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2x_perf.cpp" />
     <ClCompile Include="cach_bench.cpp" />
     <ClCompile Include="lock_vs_mutex_vs_spinlock.cpp" />
     <ClCompile Include="try.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="iterable.h" />
+    <ClInclude Include="iterable.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
