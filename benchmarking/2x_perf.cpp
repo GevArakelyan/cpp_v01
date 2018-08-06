@@ -14,13 +14,6 @@ void bm_loop_x(benchmark::State& state)
 			for (unsigned long long sample = 0; sample < v1.size() - num; sample++)
 				v2[coeff] += v1[sample] + v1[sample + coeff];
 		}
-		//for (auto coeff = 0; coeff < num; ++coeff)
-		//{
-		//	auto d = 0.0f;
-		//	for (unsigned long long sample = 0; sample < v1.size() - num; sample++)
-		//		d += v1[sample] + v1[sample + coeff];
-		//	v2[coeff] = d;
-		//}
 		benchmark::DoNotOptimize(v1);
 		benchmark::ClobberMemory();
 	}
