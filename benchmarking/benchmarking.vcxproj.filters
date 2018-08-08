@@ -36,6 +36,9 @@
     <ClCompile Include="2x_perf.cpp">
       <Filter>data_dependency</Filter>
     </ClCompile>
+    <ClCompile Include="6x_perf.cpp">
+      <Filter>data_dependency</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="iterable.hpp">

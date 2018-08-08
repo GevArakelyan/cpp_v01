@@ -44,3 +44,4 @@ void bm_loop_more_than_2x(benchmark::State& state)
 BENCHMARK(bm_loop_more_than_2x);
 BENCHMARK(bm_loop_x);
 
+

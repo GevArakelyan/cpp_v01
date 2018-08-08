@@ -126,6 +126,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="2x_perf.cpp" />
+    <ClCompile Include="6x_perf.cpp" />
     <ClCompile Include="cach_bench.cpp" />
     <ClCompile Include="lock_vs_mutex_vs_spinlock.cpp" />
     <ClCompile Include="try.cpp" />
