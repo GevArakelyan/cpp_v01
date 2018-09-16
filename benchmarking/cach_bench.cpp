@@ -86,6 +86,6 @@ static void cachBench(benchmark::State& s)
 }
 
 //
-//BENCHMARK(cachBench)->DenseRange(13, 27)->ReportAggregatesOnly(true);
+BENCHMARK(cachBench)->DenseRange(13, 27)->ReportAggregatesOnly(true);
 //
 //BENCHMARK_MAIN();

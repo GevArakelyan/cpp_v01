@@ -18,6 +18,9 @@
     <Filter Include="Interprocess">
       <UniqueIdentifier>{65b6361d-f05c-4407-b9ed-dd646c70669e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AntonyWilliams">
+      <UniqueIdentifier>{20f9fcde-6479-4e35-81a7-d8bef9a913e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="barrier.cpp">
@@ -43,6 +46,9 @@
     </ClCompile>
     <ClCompile Include="try.cpp">
       <Filter>lock_free</Filter>
+    </ClCompile>
+    <ClCompile Include="parallel_accumulate.cpp">
+      <Filter>AntonyWilliams</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
