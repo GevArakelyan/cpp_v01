@@ -7,7 +7,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "concurrency", "practice.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "benchmarking", "..\benchmarking\benchmarking.vcxproj", "{F5C00838-B3B5-4E44-8F5C-E146C56FC543}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "every", "..\every\every.vcxproj", "{CBBC7085-FAC8-467E-8521-FA5DF4F81FD3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "meta", "..\every\every.vcxproj", "{CBBC7085-FAC8-467E-8521-FA5DF4F81FD3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interview_tasks", "..\interview_tasks\interview_tasks.vcxproj", "{AEBE6809-1E38-45EB-A459-F002BCA181CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{CBBC7085-FAC8-467E-8521-FA5DF4F81FD3}.Release|x64.Build.0 = Release|x64
 		{CBBC7085-FAC8-467E-8521-FA5DF4F81FD3}.Release|x86.ActiveCfg = Release|Win32
 		{CBBC7085-FAC8-467E-8521-FA5DF4F81FD3}.Release|x86.Build.0 = Release|Win32
+		{AEBE6809-1E38-45EB-A459-F002BCA181CA}.Debug|x64.ActiveCfg = Debug|x64
+		{AEBE6809-1E38-45EB-A459-F002BCA181CA}.Debug|x64.Build.0 = Debug|x64
+		{AEBE6809-1E38-45EB-A459-F002BCA181CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{AEBE6809-1E38-45EB-A459-F002BCA181CA}.Debug|x86.Build.0 = Debug|Win32
+		{AEBE6809-1E38-45EB-A459-F002BCA181CA}.Release|x64.ActiveCfg = Release|x64
+		{AEBE6809-1E38-45EB-A459-F002BCA181CA}.Release|x64.Build.0 = Release|x64
+		{AEBE6809-1E38-45EB-A459-F002BCA181CA}.Release|x86.ActiveCfg = Release|Win32
+		{AEBE6809-1E38-45EB-A459-F002BCA181CA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
