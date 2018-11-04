@@ -116,7 +116,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="coin.cpp" />
-    <ClCompile Include="Source.cpp" />
     <ClCompile Include="combinations_with_reverse.cpp" />
   </ItemGroup>
   <ItemGroup>
